@@ -14,6 +14,7 @@ public class FeatureCheck extends BaseFeatureCheck {
 
         // no additional purchase store checks
         isReady = true;
+        unlockedSettings = true;
         if(listener != null) {
             listener.featureCheckReady(true);
         }
